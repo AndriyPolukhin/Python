@@ -1,11 +1,11 @@
 '''
 how tall is the tree : 5
-            #
-           ###
-          #####
-         #######
-        #########
-            #
+    #
+   ###
+  #####
+ W#######
+#########
+    #
 '''
 # TIPS to breakdown the problem:
     # I. Use 1 while loop and 3 for loops

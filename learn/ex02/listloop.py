@@ -41,7 +41,7 @@ while True:
 
 for x in range(10):
     if x % 2 == 0:
-		    continue
+        continue
     print(x)
 
 print("With else clause")
@@ -56,11 +56,11 @@ else:
 
 print("for with Else")
 for i in range(1, 10):
-    if(i%5 ==0):
-		    break
+    if(i % 5 == 0):
+        break
     print(i)
 else:
     print("this is not printed because for loop is terminated because of break but not due to fail in condition")
 
 
-		
+
