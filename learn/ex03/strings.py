@@ -18,8 +18,8 @@ print(type(num_string))
 # Print the characters:
 for char in samp_string:
     print(char)
-
 '''
+
 # Print the characters in paris
 for i in range(0, len(samp_string)-1, 2):
     print(ord(samp_string[i]) + ord(samp_string[i+1]))

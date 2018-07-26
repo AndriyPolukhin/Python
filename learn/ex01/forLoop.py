@@ -4,6 +4,5 @@ for w in words:
 
 for w in words[:]:
     if len(w) > 6:
-		    words.insert(0, w)
-
-
+        words.insert(0, w)
+        print(w, words)

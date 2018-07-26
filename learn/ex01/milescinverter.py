@@ -14,11 +14,11 @@ converter = 1.60934
 
 kilometers = miles * converter
 
-print("{} miles equals {} kilometers".format(miles, kilometers))
+print("{} miles equals {:.2f} kilometers".format(miles, kilometers))
 
 kilometers = input('Enter amount of kilometers to convert ')
 kilometers = float(kilometers)
 
 miles = kilometers / converter
 
-print("{} kilometers equals {} miles".format(kilometers, miles))
+print("{} kilometers equals {:.2f} miles".format(kilometers, miles))
